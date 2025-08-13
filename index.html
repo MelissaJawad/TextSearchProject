@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Text Search Project</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap" aria-live="polite">
+    <h1>Search</h1>
+    <p class="subtle">Type a keyword or phrase to search across article titles and content. Matches are highlighted.</p>
+
+    <label class="search-box" for="q">
+      <input id="q" type="search" placeholder="grid" autocomplete="off" />
+    </label>
+
+    <div id="count" class="count">Start typing to search…</div>
+    <section id="results" class="results" aria-label="Search results"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
